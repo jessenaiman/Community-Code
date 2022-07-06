@@ -278,6 +278,7 @@ gulp.task('package', gulp.series(() =>
             './lib/**',
             './images/**',
             './plugin/**',
+            './slides/**',
             './**.md'
         ],
         { base: './' }
@@ -299,6 +300,8 @@ gulp.task('serve', () => {
     })
 
     gulp.watch(['*.html', '*.md'], gulp.series('reload'))
+
+    gulp.watch(['slides/*.html', 'slides/*.md'], gulp.series('reload'))
 
     gulp.watch(['js/**'], gulp.series('js', 'reload', 'eslint'))
 
