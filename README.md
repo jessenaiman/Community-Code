@@ -8,7 +8,4 @@ If you're interested in presenting follow these steps:
 2. npm install
 3. npm start
 
---- 
-<div align="center">
-  This is fork of https://github.com/hakimel/reveal.js
-</div>
+
