@@ -8,4 +8,4 @@ If you're interested in presenting follow these steps:
 2. npm install
 3. npm start
 
-
+If you're looking to customize this presentation, or contribute refer to the originating project [reveal.js](https://github.com/hakimel/reveal.js)
