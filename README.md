@@ -8,4 +8,4 @@ If you're interested in presenting follow these steps:
 2. npm install
 3. npm start
 
-
+For a simple non-slide guide refer to /home/jesse/Community-Code/slides/markdown.md

@@ -37,12 +37,15 @@ Note: This will only appear in the speaker notes window.
 
 ## Install Solana
 
->[Official Docs](https://docs.solana.com/cli/install-solana-cli-tools)
+[Official Docs](https://docs.solana.com/cli/install-solana-cli-tools)
 
 1. Open Ubuntu or Terminal
-2. Type: `sh -c "$(curl -sSfL https://release.solana.com/v1.10.29/install)"`
+2. Type: 
+        
+                sh -c "$(curl -sSfL https://release.solana.com/v1.10.29/install)"
+
 3. Close and reopen
-4. Type `solana –version` to make sure it’s installed
+4. Type `solana --version` to make sure it’s installed
 5. Type `solana-keygen new`
 - Hit enter for the passphrase 
 - This creates a wallet you can use for development, you don't need to save any of this
@@ -81,24 +84,27 @@ In case of an error reference: https://stackoverflow.com/questions/18039029/mac-
 
 3. Install Yarn:
    
-        corepack enable
+        corepack enable 
 
 
 
 ## Installing Anchor (Using Anchor Version Manager)
 
-1. Make sure you have the latest software: 
+1. Make sure you have the latest software (Only for Linux - WSL): 
    
         sudo apt-get update
         sudo apt-get upgrade
         sudo apt-get install pkg-config libssl-dev
         sudo apt-get update && sudo apt-get upgrade && sudo apt-get install -y pkg-config build-essential libudev-dev
 
-2. Install avm:
+2. Install avm (Mac and WSL):
    
         cargo install --git https://github.com/project-serum/anchor avm --locked --force
 
-3. Upgrade to latest version: 
+3. Check version
+
+        ` ade to latest version: 
+
         avm install latest
 
 
@@ -108,17 +114,22 @@ In case of an error reference: https://stackoverflow.com/questions/18039029/mac-
 1. Copy the Solana example code:
    
         git clone https://github.com/solana-developers/solana-dapp-next.git
-2. Move to the directory of the copied code:
+
+2. Move to the directory of the copied code
    
-        cd solana-dapp-next (tip: press tab once you’ve typed cd sol.. and it will autocomplete)
+        cd solana-dapp-next 
+
+(tip: press tab once you’ve typed cd sol.. and it will autocomplete)
+
 3. Install all code needed to run this application:
    
         yarn install
+
 4. Fire it up:
    
         yarn dev
 
-5. Open your brave browser and navigate to localhost:8000
+5. Open a browser navigate to http://localhost:8000
 
 
 
