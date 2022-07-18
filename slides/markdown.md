@@ -25,13 +25,17 @@ Note: This will only appear in the speaker notes window.
 
 ## Prerequisites: Mac Setup
 
-[Homebrew](https://treehouse.github.io/installation-guides/mac/homebrew):
-  
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-> Use this [guide](https://dev.to/nickgarfield/how-to-install-solana-dev-tools-on-an-m1-mac-kfn) if you encounter an error
+1. Install homebrew: [Homebrew](https://treehouse.github.io/installation-guides/mac/homebrew):
 
-- Verify that you have node installed by typing: `node -v`
-    > Use this [guide](https://tecadmin.net/install-nvm-macos-with-homebrew/) if you do not see a version number after inputing the command
+        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+2. Type: `brew` and verify that it is a recognized command
+
+3. Verify that you have node installed by typing: `node -v`
+
+* *Use this [guide](https://tecadmin.net/install-nvm-macos-with-homebrew/) if you do not see a version number after inputing node -v*
+
+* *Use this [guide](https://dev.to/nickgarfield/how-to-install-solana-dev-tools-on-an-m1-mac-kfn) if you encounter an error installing homebrew*
 
 
 
@@ -101,10 +105,15 @@ In case of an error reference: https://stackoverflow.com/questions/18039029/mac-
    
         cargo install --git https://github.com/project-serum/anchor avm --locked --force
 
+<<<<<<< HEAD
 3. Check version
 
         ` ade to latest version: 
 
+=======
+3. Upgrade to latest version: 
+   
+>>>>>>> d120baca8525af066b5d9ec8dd555941cf74c9d8
         avm install latest
 
 
