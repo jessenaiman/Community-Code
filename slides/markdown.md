@@ -7,78 +7,11 @@ Anyone can code
 
 Episode 1: Everything you need to get started
 
-Note: This will only appear in the speaker notes window.
-
-
-
-## Prerequisites: Windows 10/11
-
-1. **Visual Code** (Microsoft : https://code.visualstudio.com/
-2. **[Github Account]** (https://github.com/)
-3. **Linux** Referred to as WSL: *Windows Subsystem for Linux*
-   1. Right click on start menu and select “Windows Terminal (Admin)”
-   2. Type `wsl --install`
-   3. Reboot the machine (Careful, turning it on and off is not the same)
-   4. Make sure you can find the Ubuntu app in the start menu. If it is missing install manually using: `wsl --install -d ubuntu`
-   
-
-
-## Prerequisites: Mac Setup
-
-1. Install homebrew: [Homebrew](https://treehouse.github.io/installation-guides/mac/homebrew):
-
-        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-2. Type: `brew` and verify that it is a recognized command
-
-3. Verify that you have node installed by typing: `node -v`
-
-* *Use this [guide](https://tecadmin.net/install-nvm-macos-with-homebrew/) if you do not see a version number after inputing node -v*
-
-* *Use this [guide](https://dev.to/nickgarfield/how-to-install-solana-dev-tools-on-an-m1-mac-kfn) if you encounter an error installing homebrew*
-
-
-
-## Install Solana
-
-[Official Docs](https://docs.solana.com/cli/install-solana-cli-tools)
-
-1. Open Ubuntu or Terminal
-2. Type: 
-        
-                sh -c "$(curl -sSfL https://release.solana.com/v1.10.29/install)"
-
-3. Close and reopen
-4. Type `solana --version` to make sure it’s installed
-5. Type `solana-keygen new`
-- Hit enter for the passphrase 
-- This creates a wallet you can use for development, you don't need to save any of this
-
-
-
-## Install Rust Windows:
-
-1. `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-2. A list of options appears, select #1 and hit enter (Windows)
-3. Restart Terminal
-4. Type `rustup` to ensure it's installed
-
-
-## Install Rust Mac:
-
-1. `brew install rustup`
-In case of an error reference: https://stackoverflow.com/questions/18039029/mac-can-t-install-homebrew
-2. Type `rustup` to ensure it’s installed
-3. Press enter again
-
 
 
 ## Install NVM (Node Version Manager)
 
-[Official Guide]: 
-(https://book.anchor-lang.com/getting_started/installation.html)
-
-1. Install node package manager: nvm
+1. Install nvm (node package manager)
    
         curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
@@ -90,6 +23,54 @@ In case of an error reference: https://stackoverflow.com/questions/18039029/mac-
    
         corepack enable 
 
+[Official Guide](https://book.anchor-lang.com/getting_started/installation.html)
+
+
+
+## Install Solana
+
+1. Open Ubuntu or Terminal
+2. Type: 
+        
+                sh -c "$(curl -sSfL https://release.solana.com/v1.10.29/install)"
+
+3. Close and reopen
+4. Type `solana --version` to make sure it’s installed
+5. Type `solana-keygen new`
+
+    a. Hit enter for the passphrase when prompted
+
+    b. This creates a wallet you can use for development, you don't need to save any of this
+
+[Official Solana Document](https://docs.solana.com/cli/install-solana-cli-tools)
+
+Note: 
+* discuss solana-keygen new 
+* Discuss how there are 3 solana environments
+* add commands in slide below
+
+
+
+## Install Rust Windows:
+
+1. Open terminal and type:
+
+                curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+2. A list of options appears, select #1 and hit enter
+
+![External Image](assets/rust-install.png)
+
+3. Restart Terminal
+4. Type `rustup` to ensure it's installed
+
+
+## Install Rust Mac:
+
+1. `brew install rustup`
+In case of an error reference: https://stackoverflow.com/questions/18039029/mac-can-t-install-homebrew
+2. Type `rustup` to ensure it’s installed
+3. Press enter again
 
 
 ## Installing Anchor (Using Anchor Version Manager)
@@ -105,40 +86,52 @@ In case of an error reference: https://stackoverflow.com/questions/18039029/mac-
    
         cargo install --git https://github.com/project-serum/anchor avm --locked --force
 
-<<<<<<< HEAD
-3. Check version
-
-        ` ade to latest version: 
-
-=======
 3. Upgrade to latest version: 
    
->>>>>>> d120baca8525af066b5d9ec8dd555941cf74c9d8
         avm install latest
 
+Notes: Follow up questions
+1 - Interesting Projects
+2 - Requests
+3 - Dream projects
 
 
-## Final Steps: Download, Compile, Run
 
-1. Copy the Solana example code:
+## Download
+
+1. Navigate to https://github.com/solana-developers/solana-dapp-next.git
+
+2. Click the 'Fork' button in the top right
+
+    ![External Image](assets/fork-sample.png)
+
+3. Create a new fork and keep the name the same
+
+3. Copy your Solana example code by copying the url and then type:
    
-        git clone https://github.com/solana-developers/solana-dapp-next.git
+        git clone https://github.com/your-github-name/solana-dapp-next.git
 
-2. Move to the directory of the copied code
+
+
+## Compile
+
+1. In your terminal type:
    
         cd solana-dapp-next 
 
-(tip: press tab once you’ve typed cd sol.. and it will autocomplete)
-
-3. Install all code needed to run this application:
+2. Install all code needed to run this application:
    
         yarn install
 
-4. Fire it up:
+
+
+## Run
+
+1. Fire it up:
    
         yarn dev
 
-5. Open a browser navigate to http://localhost:8000
+2. Open a browser navigate to http://localhost:8000
 
 
 
