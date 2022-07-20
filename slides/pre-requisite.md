@@ -1,4 +1,6 @@
-## Prerequisites: 
+# Hubble Coding School
+
+#### Prerequisites: 
 
 1. **Visual Code** (Microsoft : https://code.visualstudio.com/
 2. **[Github Account]** (https://github.com/)

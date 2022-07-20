@@ -73,6 +73,7 @@ In case of an error reference: https://stackoverflow.com/questions/18039029/mac-
 3. Press enter again
 
 
+
 ## Installing Anchor (Using Anchor Version Manager)
 
 1. Make sure you have the latest software (Only for Linux - WSL): 
@@ -99,7 +100,7 @@ Notes: Follow up questions
 
 ## Download
 
-1. Navigate to https://github.com/solana-developers/solana-dapp-next.git
+1. Navigate to https://github.com/solana-labs/dapp-scaffold
 
 2. Click the 'Fork' button in the top right
 
@@ -109,7 +110,9 @@ Notes: Follow up questions
 
 3. Copy your Solana example code by copying the url and then type:
    
-        git clone https://github.com/your-github-name/solana-dapp-next.git
+        git clone https://github.com/your-github-name/dapp-scaffold.git
+
+> Make sure you're copying your github url, and not the one above, which is a sample
 
 
 
@@ -117,7 +120,7 @@ Notes: Follow up questions
 
 1. In your terminal type:
    
-        cd solana-dapp-next 
+        cd dapp-scaffold 
 
 2. Install all code needed to run this application:
    
@@ -131,7 +134,7 @@ Notes: Follow up questions
    
         yarn dev
 
-2. Open a browser navigate to http://localhost:8000
+2. Open a browser navigate to http://localhost:3000
 
 
 
