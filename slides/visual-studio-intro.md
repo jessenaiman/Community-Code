@@ -6,4 +6,4 @@
 6. Now start the app by typing: `yarn dev`
 7. In the explorer on the left find the file: src/views/home/index.tsx 
 
-![External Image](assets/starting-file.png)
+![External Image](https://github.com/jessenaiman/Community-Code/blob/master/assets/starting-file.png)
