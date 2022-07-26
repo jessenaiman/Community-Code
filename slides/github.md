@@ -1,10 +1,10 @@
-1. Open Git Bash.
+1. Open Terminal.
 
 2. Set a Git username:
 
-3. 
-        $ git config --global user.name "Mona Lisa"
+`$ git config --global user.name "Your Name"`
+`$ git config --global user.email "youremail@domain.com"`
 
-4. Confirm that you have set the Git username correctly:
+3. Confirm that you have set the Git username correctly:
 
         $ git config --global user.name
