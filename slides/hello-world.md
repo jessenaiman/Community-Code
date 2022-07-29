@@ -62,12 +62,17 @@ We are following this [official guide](https://doc.rust-lang.org/book/ch01-02-he
 
 
 
-## Step 3 
+## Step 4: Packaging with Cargo
 
-Create an examples folder and a folder for the first ‘small step.’ called rust-hello-world. Beginners should be shown the file structure before moving on, as each example will have it’s own.
+1. Move back to the examples directory in your terminal
 
+        $ cd ..
 
-4. 
+2. Verify you are in the right folder at any point by listing the files with:
+
+        $ ls
+
+3. 
 5. Build it, Run it, Suceeed!
 6. Now again with cargo
     1. run  $ cargo new cargo-hello-world
