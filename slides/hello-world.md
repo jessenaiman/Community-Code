@@ -133,6 +133,6 @@ We are following this [official guide](https://doc.rust-lang.org/book/ch01-02-he
 
 
 
-7. Review and invite to the space-bar to go over more samples
+# Review and invite to the space-bar to go over more samples
 
 Build it, Run it, Suceeed!
