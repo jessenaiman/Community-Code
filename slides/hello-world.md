@@ -11,7 +11,6 @@ OR
 **Windows**:        Ubuntu (WSL)
 
 
-
 ## Step 1: Prepare for departure
 
 Create github repository
@@ -39,6 +38,9 @@ Create github repository
                 $ code [project_name]
 
 4. Follow the instructions on the github page using the terminal within visual code
+
+
+## Verify Github is connected
 
 5. Save credentials
 
@@ -86,7 +88,7 @@ We are following this [official guide](https://doc.rust-lang.org/book/ch01-02-he
 
 
 
-## Step 3: Create a save point
+## Step 4: Create a save point
 
 1. Let's save our progress before continuing 
 
@@ -102,7 +104,7 @@ We are following this [official guide](https://doc.rust-lang.org/book/ch01-02-he
 
 
 
-## Step 4: Hello World..now with Cargo
+## Step 5: Hello World..now with Cargo
 
 1. Move back to the examples directory in your terminal
 
@@ -133,6 +135,10 @@ We are following this [official guide](https://doc.rust-lang.org/book/ch01-02-he
 
 
 
-7. Review and invite to the space-bar to go over more samples
+# Mission Complete
 
-Build it, Run it, Suceeed!
+Head over to space bar during the week:
+
+*Monday and Friday 4PM UTC* 
+
+If you need any help, or want to build something together the #coding-school channel is your community space to learn and grow your building skillz.

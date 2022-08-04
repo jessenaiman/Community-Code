@@ -1,3 +1,5 @@
+## Basic Config
+
 1. Open Terminal.
 
 2. Set a Git username:
@@ -8,3 +10,7 @@
 3. Confirm that you have set the Git username correctly:
 
         $ git config --global user.name
+
+
+
+## Terminal Github Commit
