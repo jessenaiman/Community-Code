@@ -39,17 +39,21 @@ Follow the steps in this [document](https://github.com/cli/cli/blob/trunk/docs/i
 
 1.
 
-        gh auth login
+        $ gh auth login
 
 2. Select Github.com 
 
-3. Choose second option and head to github to generate a new sshe key
+3. Choose second option and head to github to generate a new ssh key
 
 
 3. https://github.com/settings/tokens
 
+
 ## Terminal Github Commit
+
+*These are the typical steps for a single use save to github*
 
                 git status
                 git add .
                 git commit -m 'your commit message'
+                git push
