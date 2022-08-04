@@ -14,3 +14,7 @@
 
 
 ## Terminal Github Commit
+
+                git status
+                git add .
+                git commit -m 'your commit message'

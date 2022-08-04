@@ -42,7 +42,7 @@ Create github repository
 
 ## Verify Github is connected
 
-5. Save credentials
+1. Save credentials
 
                 $ git config --global user.name "Your Name"
                 $ git config --global user.email "youremail@domain.com"
