@@ -19,6 +19,10 @@ Install the [github cli](https://github.com/cli/cli#installation)
 
 It's easy to confuse this with the core git cli which we access when we type `git [command]`
 
+#### Mac Users
+
+        $ brew install gh
+
 #### Linux Users 
 
 Follow the steps in this [document](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
@@ -31,7 +35,18 @@ Follow the steps in this [document](https://github.com/cli/cli/blob/trunk/docs/i
 
 *Friendly reminder to confirm that you are installing official code, and not malware*
 
+#### Everyone
 
+1.
+
+        gh auth login
+
+2. Select Github.com 
+
+3. Choose second option and head to github to generate a new sshe key
+
+
+3. https://github.com/settings/tokens
 
 ## Terminal Github Commit
 

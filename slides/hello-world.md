@@ -70,11 +70,7 @@ Create github repository
             println!("Hello, world!");
         }
 
-3. Locate the terminal within code with the shortcut : 
-
-        ctrl ` 
-
-4. In the terminal below enter:
+4. In the terminal below enter, navigate to the folder that has this file:
 
         $ rustc main.rs
 
@@ -102,13 +98,13 @@ We are following this [official guide](https://doc.rust-lang.org/book/ch01-02-he
 
         $ git push origin main
 
+*If this step fails you can still proceed, you have saved your work locally*
+
 
 
 ## Step 5: Hello World..now with Cargo
 
-1. Move back to the examples directory in your terminal
-
-        $ cd ..
+1. Move back to the examples directory in your terminal 
 
 2. Verify you are in the right folder at any point by listing the files with:
 
