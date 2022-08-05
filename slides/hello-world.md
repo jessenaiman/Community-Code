@@ -37,20 +37,28 @@ Create github repository
 
                 $ code [project_name]
 
+4. Locate the terminal inside of visual code
+
+![External Image](assets/code-terminal.png)
+
 4. Follow the instructions on the github page using the terminal within visual code
 
 
-## Verify Github is connected
 
-1. Save credentials
+## Basic Terminal Commands
 
-                $ git config --global user.name "Your Name"
-                $ git config --global user.email "youremail@domain.com"
+* View the current directory:
+
+        ls
+
+* Move to another directory
+
+        cd [examples]
 
 
 
-## Step 2 1/2 
-
+# Step 2 1/2: 
+ 
 1. Create an example directory 
 
         $ mkdir examples
@@ -58,6 +66,12 @@ Create github repository
 2. Create the directory for the first hello world project
 
         $ mkdir examples/rust-hello-world
+
+3. Move into this directory 
+
+        $ cd examples/rust-hello-world
+
+*Each project should be a new directory beneath the examples folder*
 
 
 
@@ -102,36 +116,51 @@ We are following this [official guide](https://doc.rust-lang.org/book/ch01-02-he
 
 
 
-## Step 5: Hello World..now with Cargo
+## Hello World..now with Cargo
 
 1. Move back to the examples directory in your terminal 
 
-2. Verify you are in the right folder at any point by listing the files with:
-
-        $ ls
-
-3. Build
+2. Build
 
         $ cargo new cargo-hello-world
 
-4. Move into the directory
+3. Move into the directory
 
         $ cd cargo-hello-world
 
-5. Examine the file src/main.rs, it already has this code:
+4. Examine the file src/main.rs, it already has this code:
 
                 fn main() {
                         println!("Hello, world!");
                 }
 
-6. Run
+5. Run
 
                 cargo run
-    
 
 
 
-# Mission Complete
+## Hello World in javascript
+
+1. Move back to the examples directory in your terminal 
+2. Create a new folder:
+
+        $ mkdir node-hello-world
+
+3. Create a file called index.js in the node-hello-world directory
+4. Enter this code into the index.js file:
+
+        console.log("Hello World");
+
+5. In the terminal (from the node-hello-world directory) enter:
+
+        node index.js
+
+6. Hello World should output in the next line
+
+
+
+ ## Mission Complete
 
 Head over to space bar during the week:
 
